@@ -1,8 +1,11 @@
 {
-  "name": "shrinkHeader",
-  "main": "shrinkHeader.js",
+  "name": "shrink-header",
+  "main": [
+    "shrink-header.js",
+    "shrink-header.css"
+  ],
   "version": "1.0.0",
-  "homepage": "https://github.com/danielfeelfine/shrinkHeader",
+  "homepage": "http://danielfeelfine.github.io/shrink-header/",
   "authors": [
     "Daniel Feel Fine <https://github.com/danielfeelfine>"
   ],
