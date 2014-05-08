@@ -1,0 +1,25 @@
+/**
+ * shrinkHeader.js v1.0.0
+ * based in cbpAnimatedHeader.js v1.0.0 (made by codrops.com)
+ *
+ * Thanks to 'chrisenytc' for help in this gist
+ * https://gist.github.com/danielfeelfine/e55521ea04259ad830c5
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ */
+ 
+.shrink-header {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+.shrink-header.shrink-header-default {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
