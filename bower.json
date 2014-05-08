@@ -13,5 +13,8 @@
     "animations"
   ],
   "license": "MIT",
-  "ignore": []
+  "ignore": [],
+  "dependencies": {
+    "classie": "~1.0.0"
+  }
 }
