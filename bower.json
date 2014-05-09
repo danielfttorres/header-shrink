@@ -1,18 +1,18 @@
 {
-  "name": "shrink-header",
+  "name": "header-shrink",
   "main": [
-    "shrink-header.js",
-    "shrink-header.css"
+    "header-shrink.js",
+    "header-shrink.css"
   ],
   "version": "1.0.0",
-  "homepage": "http://danielfeelfine.github.io/shrink-header/",
+  "homepage": "http://danielfeelfine.github.io/header-shrink/",
   "authors": [
     "Daniel Feel Fine <https://github.com/danielfeelfine>"
   ],
   "description": "On-scroll Shrink Header class helper",
   "keywords": [
-    "shrink",
     "header",
+    "shrink",
     "animations"
   ],
   "license": "MIT",

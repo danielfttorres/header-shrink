@@ -9,8 +9,8 @@
  * http://www.opensource.org/licenses/mit-license.php
  *
  */
- 
-.shrink-header {
+
+.header-shrink {
   width: 100%;
   overflow: hidden;
   position: fixed;
@@ -18,7 +18,7 @@
   left: 0;
   z-index: 10000;
 }
-.shrink-header.shrink-header-default {
+.header-shrink.header-shrink-default {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;

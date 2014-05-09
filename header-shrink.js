@@ -1,5 +1,5 @@
  /**
-  * shrinkHeader.js v1.0.0
+  * header-shrink.js v1.0.0
   * based in cbpAnimatedHeader.js v1.0.0 (made by codrops.com)
   *
   * Thanks to 'chrisenytc' for help in this gist
@@ -10,7 +10,7 @@
   *
   */
 
-var shrinkHeader = function(headerName, className) {
+var headerShrink = function(headerName, className) {
 
     var docElem = document.documentElement,
         header = document.querySelector( headerName ),

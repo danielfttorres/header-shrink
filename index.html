@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shrink Header</title>
-    <link rel="stylesheet" type="text/css" href="shrink-header.css" />
+    <title>Header Shrink</title>
+    <link rel="stylesheet" type="text/css" href="header-shrink.css" />
 
     <style type="text/css">
       body {
         font-family: 'Helvetica', sans-serif;
       }
-      .shrink-header {
+      .header-shrink {
         height: 140px;
         background: #f3efe0;
+        text-align: center;
       }
-      .shrink-header-active {
+      .header-shrink-active {
         height: 80px;
         background: #1ECD97;
       }
@@ -27,17 +28,17 @@
   </head>
   <body>
 
-    <header class="shrink-header shrink-header-default">
-      <h1>Shrink Header v1.0.0</h1>
+    <header class="header-shrink header-shrink-default">
+      <h1>Header Shrink</h1>
     </header>
 
     <section class="my-section"></section>
 
     <script src="bower_components/classie/classie.js"></script>
-    <script src="shrinkHeader.js"></script>
+    <script src="header-shrink.js"></script>
 
     <script>
-      shrinkHeader('.shrink-header', 'shrink-header-active' );
+      headerShrink('.header-shrink', 'header-shrink-active' );
     </script>
 
   </body>
