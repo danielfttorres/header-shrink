@@ -42,5 +42,6 @@ var headerShrink = function(headerName, className) {
     }
 
     init();
+    scrollPage();
 
 };
